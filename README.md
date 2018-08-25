@@ -17,8 +17,8 @@ In this project, we wanted to compare two different approaches ("Genetic" and "S
  Since our approaches do not guaranty to achieve the optimum result, we reduced our problem to Integer Linear Programming.  So in small graph samples, we could compare our results with optimum solution and for the large graph samples, we just compared our two different methods with each other.
  <br>
  ### Normal Formulation
- Minimize 
-![function](/Images/formula-1.bmp)
- Problem constraints
+ #### Minimize <br>
+![function](/Images/formula-1.bmp) 
+ #### Problem constraints <br>
 ![Constraint](/Images/conditiona-1.bmp)
 
