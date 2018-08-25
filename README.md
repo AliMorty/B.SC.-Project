@@ -27,7 +27,15 @@ In this project, we wanted to compare two different approaches ("Genetic" and "S
 ### Problem: There are exponential number of constraint! 
 The reason we used last constraint is becausewe want the graph to be connected. Not like this:<br>
 ![Sample](/Images/lip-probelm.bmp) <br>
-Since **all non empty partitions** are in order of **all subset of all nodes** and therefore Exponential, normal constraints was not a good choice. So we used something like flow in order. Suppose we want to inject water to every nodes from **node-1**, if the graph is not connected, there will be no way for doing so. So we used some other variables *f<sub>ij</sub>* and using them to guranty that we can inject water to every nodes from **node-1**.
-So we remove the last constraint. Then add new constraints as below:
+Since **all non empty partitions** are in order of **all subset of all nodes** and therefore Exponential, normal constraints was not a good choice. So we used something like flow in order. Suppose we want to inject water to every nodes from **node-1**, if the graph is not connected, there will be no way for doing so. So we used some other variables *f<sub>ij</sub>* and using them to guranty that we can inject water to every nodes from **node-1**. <br>
+So we remove the last constraint. Then add new constraints as below:<br>
 ![New Constraint](/Images/new-condition.bmp)
+
+### Running The Program
+![image](/Images/an-output.bmp) <br>
+We tested different hyper parameters for our algorithms. 
+### Genetic Algorithm
+![image](/Images/genetic-pop-cost) <br>
+### Simulated Annealing
+![image](/Images/simulated-annealing-iteration-costt) <br>
 
