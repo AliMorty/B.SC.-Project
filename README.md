@@ -10,8 +10,8 @@ In this project, we wanted to compare two different approaches ("Genetic" and "S
  
  ## Our Approach
  We used two different approaches.
- > Genetic Algorithm
- > Simulated Annealing
+ > Genetic Algorithm <br>
+ > Simulated Annealing <br>
 
  ## Reduce To Integer Linear Programming
  Since our approaches do not guaranty to achieve the optimum result, we reduced our problem to Integer Linear Programming.  So in small graph samples, we could compare our results with optimum solution and for the large graph samples, we just compared our two different methods with each other.
