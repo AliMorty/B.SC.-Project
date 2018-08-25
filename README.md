@@ -18,7 +18,8 @@ In this project, we wanted to compare two different approaches ("Genetic" and "S
  <br>
  ### Normal Formulation
  #### Minimize <br>
- *c* and *c'* coresspond to first and second costs.
+ *c* and *c'* coresspond to first and second costs. <br>
+ if we use an edge for the first time then *x*=1 and if we use the edge for the second time then *x'*=1 (It can be easily proved that in the optimum solution we will use every edge at most two times. not more!) <br> 
 ![function](/Images/formula-1.bmp) 
  #### Problem constraints <br>
 ![Constraint](/Images/constraint.bmp)
