@@ -18,6 +18,7 @@ In this project, we wanted to compare two different approaches ("Genetic" and "S
  <br>
  ### Normal Formulation
  #### Minimize <br>
+ *c* and *c'* coresspond to first and second costs.
 ![function](/Images/formula-1.bmp) 
  #### Problem constraints <br>
 ![Constraint](/Images/constraint.bmp)
@@ -25,10 +26,7 @@ In this project, we wanted to compare two different approaches ("Genetic" and "S
 ### Problem: There are exponential number of constraint! 
 The reason we used last constraint is becausewe want the graph to be connected. Not like this:<br>
 ![Sample](/Images/lip-probelm.bmp) <br>
-Since **all non empty partitions** are in order of **all subset of all nodes** and therefore Exponential, normal constraints was not a good choice. So we used something like flow in order. Suppose we want to inject water to every nodes from **node-1**, if the graph is not connected, there will be no way for doing so. So we used some other variables (f<sub>ij</sub>) and using them to guranty that we can inject water to every nodes from **node-1**.
+Since **all non empty partitions** are in order of **all subset of all nodes** and therefore Exponential, normal constraints was not a good choice. So we used something like flow in order. Suppose we want to inject water to every nodes from **node-1**, if the graph is not connected, there will be no way for doing so. So we used some other variables *f<sub>ij</sub>* and using them to guranty that we can inject water to every nodes from **node-1**.
 So we remove the last constraint. Then add new constraints as below:
 ![New Constraint](/Images/new-condition.bmp)
 
-You can use $$\LaTeX$$ to typeset formulas. A formula can be displayed inline, e.g. $$e=mc^2$$, or as a block:
-$$\int_\Omega \nabla u \cdot \nabla v~dx = \int_\Omega fv~dx$$
-Also check out this [LaTeX introduction](https://en.wikibooks.org/wiki/LaTeX/Mathematics).
