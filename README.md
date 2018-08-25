@@ -20,5 +20,5 @@ In this project, we wanted to compare two different approaches ("Genetic" and "S
  #### Minimize <br>
 ![function](/Images/formula-1.bmp) 
  #### Problem constraints <br>
-![Constraint](/Images/condition.bmp)
+![Constraint](/Images/constraint.bmp)
 
