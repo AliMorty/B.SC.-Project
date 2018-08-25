@@ -6,6 +6,6 @@ In this project, we tested the performance of two different heuristic approaches
 This problem is similar to Graphical TSP. (eg. Traveller can enter any node and edge more than one time) and every edge has two different costs. **First-Time-Cost** and **Second-Time-Cost**. When we use an edge for the first time, it has a cost, probably higher and for the second time and more, it has lower cost. This problem can have some application like Airport Scheduling. Because in Airport, Round-trip ticket are cheaper than two one-way-tickets. <br>
 In fact lots of real world problems are NP-Complete. (Specially varitaions of the TSP Problem) <br>
 In this project, we wanted to compare two different approaches ("Genetic" and "Simulated Annealing") for solving an NP-Complete Problem. <br>
-![A Sample Grapg](./images/a-simple-graph.bmp)
+![A Sample Grapg](/Images/a-simple-graph.bmp)
  
  
