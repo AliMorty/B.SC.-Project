@@ -35,7 +35,7 @@ So we remove the last constraint. Then add new constraints as below:<br>
 ![image](/Images/an-output.bmp) <br>
 We tested different hyper parameters for our algorithms. 
 ### Genetic Algorithm
-![image](/Images/genetic-pop-cost) <br>
+![image](/Images/genetic-pop-cost.bmp) <br>
 ### Simulated Annealing
-![image](/Images/simulated-annealing-iteration-costt) <br>
+![image](/Images/simulated-annealing-iteration-costt.bmp) <br>
 
