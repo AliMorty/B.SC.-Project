@@ -22,9 +22,9 @@ In this project, we wanted to compare two different approaches ("Genetic" and "S
  #### Problem constraints <br>
 ![Constraint](/Images/constraint.bmp)
 
-### There are exponential number of constraint! 
+### Problem: There are exponential number of constraint! 
 The reason we used last constraint is becausewe want the graph to be connected. Not like this:<br>
-![Sample](/Images/lip-probelm.bmp)
+![Sample](/Images/lip-probelm.bmp) <br>
 Since **all non empty partitions** are in order of **all subset of all nodes** and therefore Exponential, normal constraints was not a good choice. So we used something like flow in order. Suppose we want to inject water to every nodes from **node-1**, if the graph is not connected, so there is no way for doing so. So we used some other variable and using them to guranty that we can inject water to every nodes from **node-1**.
 So we remove the last constraint. Then add new constraints as below:
 ![New Constraint](/Images/new-condition.bmp)
