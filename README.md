@@ -1,5 +1,5 @@
 # B.CS.-Project
-Implementation and Evaluation of "Genetic" and "Simulated Annealing" algorithms for Extended version of Travelling Salesman Problem. <br>
+Implementation and Evaluation of "**Genetic**" and "**Simulated Annealing**" algorithms for Extended version of Travelling Salesman Problem. <br>
 In this project, we tested the performance of two different heuristic approaches in solving an NP-Complete Problem. This problem is an extended version of Travelling Salesman Problem. Since our approach is heuristic,there is not guaranty to find a global optimum answer. So we needed some other exact approach for computing the global optimum. For this purpose, we reduced our problem to an Integer Linear Programming Instance. So in small graph samples, we could compare our results with optimum solution and for the large graph samples, we just compared our two different methods with each other. <br>
 
 ## Extended Travelling Salesman Problem
