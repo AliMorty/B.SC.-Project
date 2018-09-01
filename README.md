@@ -28,7 +28,7 @@ In this project, we wanted to compare two different approaches ("Genetic" and "S
 The reason we used the last constraint is that we want the graph to be connected. Not like this:<br>
 ![Sample](/Images/lip-probelm.bmp) <br>
 Since **all non-empty partitions** are in order of **all subset of all nodes** and therefore Exponential, normal constraints was not a good choice. So we used something like a flow in order. Suppose we want to inject water to every node from **node-1**, if the graph is not connected, there will be no way for doing so. So we used some other variables *f<sub>ij</sub>* and using them to guaranty that we can inject water into every node from **node-1**. <br>
-So we remove the last constraint. Then add new constraints as below:<br>
+So we removed the last constraint. Then add new constraints as below:<br>
 ![New Constraint](/Images/new-condition.bmp)
 
 ### Running The Program
